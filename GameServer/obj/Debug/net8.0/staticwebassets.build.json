@@ -1,19 +1,12 @@
 {
   "Version": 1,
-  "Hash": "ZmnaHoego2fMiB3mGCfyGlJ0G78acvc5dhPTNSlHl6I=",
+  "Hash": "ZYPudj3F71DuOmVkVe7WNyIxHuJsyLijwpbQk4hz5K0=",
   "Source": "GameServer",
   "BasePath": "_content/GameServer",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [
-    {
-      "Name": "GameServer\\wwwroot",
-      "Source": "GameServer",
-      "ContentRoot": "E:\\Code\\GitHub\\MyWebServer\\GameServer\\wwwroot\\",
-      "BasePath": "_content/GameServer",
-      "Pattern": "**"
-    }
-  ],
-  "Assets": []
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
 }

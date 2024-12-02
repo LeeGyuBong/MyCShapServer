@@ -1,4 +1,6 @@
-﻿namespace GameServer
+﻿using GameServer.System;
+
+namespace GameServer
 {
     public class Startup
     {
@@ -14,18 +16,27 @@
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddSingleton(Configuration);
-            //services.AddMvcCore().json
-            services.AddMvc();
+
+            services.AddControllers();
+            services.AddEndpointsApiExplorer();
+            services.AddSwaggerGen();
+
+            Config.Instance.Load(Configuration);
 
             Program.IsStart = true;
         }
 
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(WebApplication app)
         {
-            if (env.IsDevelopment())
+            if (app.Environment.IsEnvironment("Debug"))
             {
-                app.UseDeveloperExceptionPage();
+                app.UseSwagger();
+                app.UseSwaggerUI();
             }
+
+            app.UseHttpsRedirection();
+            app.UseAuthorization();
+            app.MapControllers();
         }
     }
 }

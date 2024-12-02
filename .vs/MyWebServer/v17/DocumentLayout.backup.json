@@ -1,34 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Code\\GitHub\\MyWebServer\\",
+  "WorkspaceRootPath": "E:\\Code\\GitHub\\MyCShapServer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{598320DD-7562-423C-ACCE-932DF903108D}|WebApplication1\\GameServer.csproj|e:\\code\\github\\mywebserver\\webapplication1\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{598320DD-7562-423C-ACCE-932DF903108D}|WebApplication1\\GameServer.csproj|solutionrelative:webapplication1\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3FE27C21-2049-4748-9277-3CEAABD0A707}|Test\\Test.csproj|e:\\code\\github\\mywebserver\\test\\utility\\utility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FE27C21-2049-4748-9277-3CEAABD0A707}|Test\\Test.csproj|solutionrelative:test\\utility\\utility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3FE27C21-2049-4748-9277-3CEAABD0A707}|Test\\Test.csproj|e:\\code\\github\\mywebserver\\test\\worker\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FE27C21-2049-4748-9277-3CEAABD0A707}|Test\\Test.csproj|solutionrelative:test\\worker\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3FE27C21-2049-4748-9277-3CEAABD0A707}|Test\\Test.csproj|e:\\code\\github\\mywebserver\\test\\network\\http.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FE27C21-2049-4748-9277-3CEAABD0A707}|Test\\Test.csproj|solutionrelative:test\\network\\http.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3FE27C21-2049-4748-9277-3CEAABD0A707}|Test\\Test.csproj|e:\\code\\github\\mywebserver\\test\\app.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FE27C21-2049-4748-9277-3CEAABD0A707}|Test\\Test.csproj|solutionrelative:test\\app.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3FE27C21-2049-4748-9277-3CEAABD0A707}|Test\\Test.csproj|e:\\code\\github\\mywebserver\\test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3FE27C21-2049-4748-9277-3CEAABD0A707}|Test\\Test.csproj|e:\\code\\github\\mycshapserver\\test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3FE27C21-2049-4748-9277-3CEAABD0A707}|Test\\Test.csproj|solutionrelative:test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FE27C21-2049-4748-9277-3CEAABD0A707}|Test\\Test.csproj|e:\\code\\github\\mywebserver\\test\\worker\\workergroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3FE27C21-2049-4748-9277-3CEAABD0A707}|Test\\Test.csproj|e:\\code\\github\\mycshapserver\\test\\utility\\utility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FE27C21-2049-4748-9277-3CEAABD0A707}|Test\\Test.csproj|solutionrelative:test\\utility\\utility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FE27C21-2049-4748-9277-3CEAABD0A707}|Test\\Test.csproj|e:\\code\\github\\mycshapserver\\test\\network\\http.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FE27C21-2049-4748-9277-3CEAABD0A707}|Test\\Test.csproj|solutionrelative:test\\network\\http.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FE27C21-2049-4748-9277-3CEAABD0A707}|Test\\Test.csproj|e:\\code\\github\\mycshapserver\\test\\worker\\workergroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3FE27C21-2049-4748-9277-3CEAABD0A707}|Test\\Test.csproj|solutionrelative:test\\worker\\workergroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FE27C21-2049-4748-9277-3CEAABD0A707}|Test\\Test.csproj|e:\\code\\github\\mycshapserver\\test\\worker\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FE27C21-2049-4748-9277-3CEAABD0A707}|Test\\Test.csproj|solutionrelative:test\\worker\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Code\\GitHub\\MyCShapServer\\WebApplication1\\Controllers\\WeatherForecastController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication1\\Controllers\\WeatherForecastController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,60 +34,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{cf577b8c-4134-11d2-83e5-00c04f9902c1}"
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Utility.cs",
-              "DocumentMoniker": "E:\\Code\\GitHub\\MyWebServer\\Test\\Utility\\Utility.cs",
+              "DocumentMoniker": "E:\\Code\\GitHub\\MyCShapServer\\Test\\Utility\\Utility.cs",
               "RelativeDocumentMoniker": "Test\\Utility\\Utility.cs",
-              "ToolTip": "E:\\Code\\GitHub\\MyWebServer\\Test\\Utility\\Utility.cs",
+              "ToolTip": "E:\\Code\\GitHub\\MyCShapServer\\Test\\Utility\\Utility.cs",
               "RelativeToolTip": "Test\\Utility\\Utility.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T18:05:31.969Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "E:\\Code\\GitHub\\MyWebServer\\WebApplication1\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "E:\\Code\\GitHub\\MyWebServer\\WebApplication1\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "WebApplication1\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T17:56:15.636Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Http.cs",
-              "DocumentMoniker": "E:\\Code\\GitHub\\MyWebServer\\Test\\Network\\Http.cs",
-              "RelativeDocumentMoniker": "Test\\Network\\Http.cs",
-              "ToolTip": "E:\\Code\\GitHub\\MyWebServer\\Test\\Network\\Http.cs",
-              "RelativeToolTip": "Test\\Network\\Http.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAQwA0AAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T17:37:35.598Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T18:05:31.969Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "E:\\Code\\GitHub\\MyCShapServer\\WebApplication1\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "E:\\Code\\GitHub\\MyCShapServer\\WebApplication1\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\WeatherForecastController.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T17:56:15.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Http.cs",
+              "DocumentMoniker": "E:\\Code\\GitHub\\MyCShapServer\\Test\\Network\\Http.cs",
+              "RelativeDocumentMoniker": "Test\\Network\\Http.cs",
+              "ToolTip": "E:\\Code\\GitHub\\MyCShapServer\\Test\\Network\\Http.cs",
+              "RelativeToolTip": "Test\\Network\\Http.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T17:37:35.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "E:\\Code\\GitHub\\MyWebServer\\Test\\Program.cs",
+              "DocumentMoniker": "E:\\Code\\GitHub\\MyCShapServer\\Test\\Program.cs",
               "RelativeDocumentMoniker": "Test\\Program.cs",
-              "ToolTip": "E:\\Code\\GitHub\\MyWebServer\\Test\\Program.cs",
+              "ToolTip": "E:\\Code\\GitHub\\MyCShapServer\\Test\\Program.cs",
               "RelativeToolTip": "Test\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-18T15:50:14.532Z",
               "EditorCaption": ""
@@ -99,41 +95,26 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "App.cs",
-              "DocumentMoniker": "E:\\Code\\GitHub\\MyWebServer\\Test\\App.cs",
-              "RelativeDocumentMoniker": "Test\\App.cs",
-              "ToolTip": "E:\\Code\\GitHub\\MyWebServer\\Test\\App.cs",
-              "RelativeToolTip": "Test\\App.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAqwBMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T16:10:03.797Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Worker.cs",
-              "DocumentMoniker": "E:\\Code\\GitHub\\MyWebServer\\Test\\Worker\\Worker.cs",
+              "DocumentMoniker": "E:\\Code\\GitHub\\MyCShapServer\\Test\\Worker\\Worker.cs",
               "RelativeDocumentMoniker": "Test\\Worker\\Worker.cs",
-              "ToolTip": "E:\\Code\\GitHub\\MyWebServer\\Test\\Worker\\Worker.cs",
+              "ToolTip": "E:\\Code\\GitHub\\MyCShapServer\\Test\\Worker\\Worker.cs",
               "RelativeToolTip": "Test\\Worker\\Worker.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T15:53:13.403Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T15:53:13.403Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "WorkerGroup.cs",
-              "DocumentMoniker": "E:\\Code\\GitHub\\MyWebServer\\Test\\Worker\\WorkerGroup.cs",
+              "DocumentMoniker": "E:\\Code\\GitHub\\MyCShapServer\\Test\\Worker\\WorkerGroup.cs",
               "RelativeDocumentMoniker": "Test\\Worker\\WorkerGroup.cs",
-              "ToolTip": "E:\\Code\\GitHub\\MyWebServer\\Test\\Worker\\WorkerGroup.cs",
+              "ToolTip": "E:\\Code\\GitHub\\MyCShapServer\\Test\\Worker\\WorkerGroup.cs",
               "RelativeToolTip": "Test\\Worker\\WorkerGroup.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAzwBMAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T15:51:42.742Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T15:51:42.742Z"
             }
           ]
         }
