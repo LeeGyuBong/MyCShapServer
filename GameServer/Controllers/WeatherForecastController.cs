@@ -1,10 +1,9 @@
-using GameServer;
 using Microsoft.AspNetCore.Mvc;
 
 namespace GameServer.Controllers
 {
+    [Route("api/WeatherForecast")]
     [ApiController]
-    [Route("WeatherForecast")]
     public class WeatherForecastController : ControllerBase
     {
         private static readonly string[] Summaries = new[]

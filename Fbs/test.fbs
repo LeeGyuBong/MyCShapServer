@@ -1,0 +1,14 @@
+namespace NetGame;
+
+enum PacketID : int16
+{
+	TestReq = 1,
+	TestAck = 2,
+}
+
+table Test
+{
+	a : int;
+	b : double;
+	c : string;
+}

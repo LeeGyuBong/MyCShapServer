@@ -13,10 +13,10 @@ namespace Test
 
         public void Init()
         {
-            for(int i = 0; i < 5; ++i)
+            for(int i = 0; i < 1; ++i)
             {
                 WorkerGroup workerGroup = new(i + 1);
-                workerGroup.Init(10);
+                workerGroup.Init(1);
 
                 mWorkerGroupList.Add(workerGroup);
             }

@@ -1,4 +1,6 @@
-﻿using Test.Network;
+﻿using Google.FlatBuffers;
+using Test.Network;
+using WebPacketLib;
 
 namespace Test.Worker
 {
@@ -13,14 +15,23 @@ namespace Test.Worker
 
         public async Task Run()
         {
-            HttpCore? httpCore = HttpCore.GetInstance();
-            if (httpCore == null)
+            WebClient? webClient = WebClient.GetInstance();
+            if (webClient == null)
                 return;
 
-            await httpCore.GetAsync("https://localhost:7234/WeatherForecast");
+            FlatBufferBuilder fbb = new FlatBufferBuilder(1024);
+            var packetData = NetGame.Test.CreateTest(fbb, 1, 3.141592, fbb.CreateString("가나다zdzzd"));
+            fbb.Finish(packetData.Value);
+
+            MyWebRequest request = new MyWebRequest
+            {
+                Data = fbb.SizedByteArray()
+            };
+
+            await webClient.PostAsync("api/Login", request);
 
             Console.WriteLine($"Worker{ID} is Run!");
-            //await Task.Delay( 1000 );
+            await Task.Delay( 1000 );
         }
     }
 }

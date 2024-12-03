@@ -1,17 +1,23 @@
-﻿using System.Text;
+﻿using Newtonsoft.Json;
+using System.Text;
 using Test.Utility;
+using WebPacketLib;
 
 namespace Test.Network
 {
-    internal class HttpCore : Singleton<HttpCore>
+    internal class WebClient : Singleton<WebClient>
     {
-        static readonly HttpClient __httpClient = new HttpClient();
+        readonly HttpClient __httpClient = new HttpClient
+        {
+            BaseAddress = new Uri("https://localhost:7234"),
+            Timeout = TimeSpan.FromMilliseconds(1 * 30 * 1000)
+        };
 
-        public async Task GetAsync(string url)
+        public async Task GetAsync(string api)
         {
             try
             {
-                using(var response = await __httpClient.GetAsync(url))
+                using(HttpResponseMessage response = await __httpClient.GetAsync($"{__httpClient.BaseAddress}{api}"))
                 {
                     response.EnsureSuccessStatusCode();
                     var body = await response.Content.ReadAsStringAsync();
@@ -23,13 +29,13 @@ namespace Test.Network
             }
         }
 
-        public async Task PostAsync(string url, string serializeData)
+        public async Task PostAsync(string api, MyWebRequest request)
         {
             try
             {
-                StringContent jsonContent = new StringContent(serializeData, Encoding.UTF8, "application/json");
+                StringContent jsonContent = new StringContent(JsonConvert.SerializeObject(request), Encoding.UTF8, "application/json");
 
-                using (var response = await __httpClient.PostAsync(url, jsonContent))
+                using (HttpResponseMessage response = await __httpClient.PostAsync($"{__httpClient.BaseAddress}{api}", jsonContent))
                 {
                     response.EnsureSuccessStatusCode();
                     var body = await response.Content.ReadAsStringAsync();

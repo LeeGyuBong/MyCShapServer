@@ -9,4 +9,13 @@
     <BaseOutputPath>..\Bin\$(MSBuildProjectName)\</BaseOutputPath>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Google.FlatBuffers" Version="24.3.25" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WebPacketLib\WebPacketLib.csproj" />
+  </ItemGroup>
+
 </Project>

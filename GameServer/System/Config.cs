@@ -4,7 +4,7 @@
     {
         #region Singletone
 
-        private static volatile Config? __instance;
+        private static volatile Config? __instance = null;
         private static readonly object __lock = new object();
 
         public static Config Instance

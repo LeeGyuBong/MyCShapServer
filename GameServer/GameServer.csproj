@@ -8,8 +8,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Google.FlatBuffers" Version="24.3.25" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="9.0.0" />
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="7.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WebPacketLib\WebPacketLib.csproj" />
   </ItemGroup>
 
 </Project>
