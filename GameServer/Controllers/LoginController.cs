@@ -1,9 +1,6 @@
 ﻿using Google.FlatBuffers;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using NetGame;
-using Newtonsoft.Json;
-using System.Text;
 using WebPacketLib;
 
 namespace GameServer.Controllers
@@ -28,7 +25,7 @@ namespace GameServer.Controllers
                     return false;
 
                 ByteBuffer bb = new ByteBuffer(request.Data);
-                var obj = NetGame.Test.GetRootAsTest(bb);
+                var obj = Test.GetRootAsTest(bb);
 
                 Console.WriteLine($"Login Post Message : {obj.A}, {obj.B}, {obj.C}");
 
@@ -40,20 +37,5 @@ namespace GameServer.Controllers
                 return false;
             }
         }
-    }
-
-    internal sealed class ProcessLogin
-    {
-        public bool CheckRequestData()
-        {
-            return true;
-        }
-
-        public async Task<bool> ProcessRequest()
-        {
-            return true;
-        }
-
-
     }
 }
