@@ -8,11 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Packet\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Google.FlatBuffers" Version="24.3.25" />
+    <PackageReference Include="MySql.Data" Version="9.1.0" />
+    <PackageReference Include="System.Text.Json" Version="9.0.0" />
   </ItemGroup>
 
 </Project>

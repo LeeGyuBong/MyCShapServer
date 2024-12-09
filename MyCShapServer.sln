@@ -16,6 +16,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Library", "Library", "{DCF3
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebPacketLib", "WebPacketLib\WebPacketLib.csproj", "{87F68576-5EAC-4AB1-9148-C428318287B7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBaseLib", "MariaDBLib\DataBaseLib.csproj", "{4BF95644-39E5-4B73-AAC7-8085F80CBA78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginServer", "LoginServer\LoginServer.csproj", "{FA44482B-48E2-4BF7-8E70-21C60B2AF575}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -34,12 +38,21 @@ Global
 		{87F68576-5EAC-4AB1-9148-C428318287B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87F68576-5EAC-4AB1-9148-C428318287B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87F68576-5EAC-4AB1-9148-C428318287B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BF95644-39E5-4B73-AAC7-8085F80CBA78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BF95644-39E5-4B73-AAC7-8085F80CBA78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BF95644-39E5-4B73-AAC7-8085F80CBA78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BF95644-39E5-4B73-AAC7-8085F80CBA78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA44482B-48E2-4BF7-8E70-21C60B2AF575}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA44482B-48E2-4BF7-8E70-21C60B2AF575}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA44482B-48E2-4BF7-8E70-21C60B2AF575}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA44482B-48E2-4BF7-8E70-21C60B2AF575}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{87F68576-5EAC-4AB1-9148-C428318287B7} = {DCF3F3D1-57DD-4737-9B0C-48639C4F9477}
+		{4BF95644-39E5-4B73-AAC7-8085F80CBA78} = {DCF3F3D1-57DD-4737-9B0C-48639C4F9477}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {88D9620E-B7DE-493C-86C8-B5A7C31E7AF6}
